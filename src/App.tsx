@@ -15,8 +15,11 @@ function App() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+        <a href="https://aws.amazon.com/">
+          <img src="https://icon.icepanel.io/AWS/svg/Front-End-Web-Mobile/Amplify.svg" className="logo" alt="AWS logo" />
+        </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Vite + React + AWS</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
